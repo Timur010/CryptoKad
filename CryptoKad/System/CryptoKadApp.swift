@@ -11,7 +11,9 @@ import SwiftUI
 struct CryptoKadApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                StartView()
+            }
         }
     }
 }

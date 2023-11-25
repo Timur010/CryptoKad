@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		3919A39E2B12573E005FF54A /* CryptoKadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A39D2B12573E005FF54A /* CryptoKadApp.swift */; };
-		3919A3A02B12573E005FF54A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A39F2B12573E005FF54A /* ContentView.swift */; };
+		3919A3A02B12573E005FF54A /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A39F2B12573E005FF54A /* StartView.swift */; };
 		3919A3A22B12573F005FF54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3919A3A12B12573F005FF54A /* Assets.xcassets */; };
 		3919A3A52B12573F005FF54A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3919A3A42B12573F005FF54A /* Preview Assets.xcassets */; };
+		3919A3AD2B1257D1005FF54A /* Color Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3AC2B1257D1005FF54A /* Color Extention.swift */; };
+		3919A3B12B125A87005FF54A /* CreateAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3B02B125A87005FF54A /* CreateAccountButton.swift */; };
+		3919A3B62B126AB9005FF54A /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3B52B126AB9005FF54A /* RegistrationView.swift */; };
+		3919A3B82B126E6E005FF54A /* TextFiledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3B72B126E6E005FF54A /* TextFiledView.swift */; };
+		3919A3BA2B1270E9005FF54A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3B92B1270E9005FF54A /* AuthViewModel.swift */; };
+		3919A3BE2B1276A6005FF54A /* Log In Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3BD2B1276A6005FF54A /* Log In Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3919A39A2B12573E005FF54A /* CryptoKad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoKad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3919A39D2B12573E005FF54A /* CryptoKadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoKadApp.swift; sourceTree = "<group>"; };
-		3919A39F2B12573E005FF54A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3919A39F2B12573E005FF54A /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		3919A3A12B12573F005FF54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3919A3A42B12573F005FF54A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3919A3AC2B1257D1005FF54A /* Color Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Extention.swift"; sourceTree = "<group>"; };
+		3919A3B02B125A87005FF54A /* CreateAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountButton.swift; sourceTree = "<group>"; };
+		3919A3B52B126AB9005FF54A /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		3919A3B72B126E6E005FF54A /* TextFiledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledView.swift; sourceTree = "<group>"; };
+		3919A3B92B1270E9005FF54A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		3919A3BD2B1276A6005FF54A /* Log In Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log In Button.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +63,9 @@
 		3919A39C2B12573E005FF54A /* CryptoKad */ = {
 			isa = PBXGroup;
 			children = (
-				3919A39D2B12573E005FF54A /* CryptoKadApp.swift */,
-				3919A39F2B12573E005FF54A /* ContentView.swift */,
-				3919A3A12B12573F005FF54A /* Assets.xcassets */,
+				3919A3AE2B125883005FF54A /* Core */,
+				3919A3AB2B1257BB005FF54A /* Extention */,
+				3919A3B22B12689C005FF54A /* System */,
 				3919A3A32B12573F005FF54A /* Preview Content */,
 			);
 			path = CryptoKad;
@@ -65,6 +77,60 @@
 				3919A3A42B12573F005FF54A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3919A3AB2B1257BB005FF54A /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				3919A3AC2B1257D1005FF54A /* Color Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		3919A3AE2B125883005FF54A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3919A3B32B1268D0005FF54A /* Auth */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3919A3AF2B125A6D005FF54A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3919A3B02B125A87005FF54A /* CreateAccountButton.swift */,
+				3919A3B72B126E6E005FF54A /* TextFiledView.swift */,
+				3919A3BD2B1276A6005FF54A /* Log In Button.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3919A3B22B12689C005FF54A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				3919A39D2B12573E005FF54A /* CryptoKadApp.swift */,
+				3919A3A12B12573F005FF54A /* Assets.xcassets */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		3919A3B32B1268D0005FF54A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3919A3B42B1268D9005FF54A /* View */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3919A3B42B1268D9005FF54A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3919A39F2B12573E005FF54A /* StartView.swift */,
+				3919A3B52B126AB9005FF54A /* RegistrationView.swift */,
+				3919A3AF2B125A6D005FF54A /* Components */,
+				3919A3B92B1270E9005FF54A /* AuthViewModel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3919A3A02B12573E005FF54A /* ContentView.swift in Sources */,
+				3919A3A02B12573E005FF54A /* StartView.swift in Sources */,
+				3919A3B12B125A87005FF54A /* CreateAccountButton.swift in Sources */,
+				3919A3AD2B1257D1005FF54A /* Color Extention.swift in Sources */,
+				3919A3BE2B1276A6005FF54A /* Log In Button.swift in Sources */,
+				3919A3BA2B1270E9005FF54A /* AuthViewModel.swift in Sources */,
+				3919A3B62B126AB9005FF54A /* RegistrationView.swift in Sources */,
+				3919A3B82B126E6E005FF54A /* TextFiledView.swift in Sources */,
 				3919A39E2B12573E005FF54A /* CryptoKadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
