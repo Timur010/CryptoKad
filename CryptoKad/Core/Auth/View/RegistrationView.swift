@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct RegistrationView: View {
-    @StateObject var vm = AuthViewModel()
+    @EnvironmentObject var store: Store
+    @EnvironmentObject var vm: AuthViewModel
+    @Environment(\.dismiss) var dismis
     var body: some View {
         VStack (spacing: 0){
             Image("Logo")
@@ -39,10 +41,18 @@ struct RegistrationView: View {
             
             Spacer()
             
-            LogInButton(text: "Registration")
-            
-           
+            LogInButton(text: "Registration") {
+                Task {
+                    await vm.create()
+                }
+            }
         }
+        .onChange(of: vm.isLogIn, { oldValue, newValue in
+            if newValue {
+                store.authStatus = .authTrue
+                dismis()
+            }
+        })
         .frame(width: UIScreen.main.bounds.width)
         .background(Color.mainColor)
     }

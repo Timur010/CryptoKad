@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DDE67AFD-1C42-41D0-AF21-4A03E6ECF29A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B4AB37A-696D-42EF-95ED-8C9DFB466E98"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "create()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B4AB37A-696D-42EF-95ED-8C9DFB466E98 - 4d35391424ee05fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.create() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "1B4AB37A-696D-42EF-95ED-8C9DFB466E98 - 4d35391424ee05fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.create() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "1B4AB37A-696D-42EF-95ED-8C9DFB466E98 - 4d35391424ee05fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.create() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "1B4AB37A-696D-42EF-95ED-8C9DFB466E98 - 4d35391424ee05fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.create() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "1B4AB37A-696D-42EF-95ED-8C9DFB466E98 - 4d35391424ee05fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.create() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99BC108C-435B-4C90-973D-0F1B7BEAB5C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "create()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99BC108C-435B-4C90-973D-0F1B7BEAB5C8 - 4d35391424ee0405"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.create() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "99BC108C-435B-4C90-973D-0F1B7BEAB5C8 - 4d35391424ee0405"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.create() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "185DDF54-6A53-4E9E-8E09-C2B7AEF3CF15"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "185DDF54-6A53-4E9E-8E09-C2B7AEF3CF15 - 74156e49f4426633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.LogIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "185DDF54-6A53-4E9E-8E09-C2B7AEF3CF15 - 74156e49f4426633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.LogIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "185DDF54-6A53-4E9E-8E09-C2B7AEF3CF15 - 74156e49f4426633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.LogIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "185DDF54-6A53-4E9E-8E09-C2B7AEF3CF15 - db5147f1007c2653"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.logIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "185DDF54-6A53-4E9E-8E09-C2B7AEF3CF15 - db5147f1007c2653"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.logIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "185DDF54-6A53-4E9E-8E09-C2B7AEF3CF15 - db5147f1007c2653"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.logIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA143021-F443-4EF0-8491-30DF93A94E2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "logIn()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA143021-F443-4EF0-8491-30DF93A94E2D - 74156e49f4426654"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.LogIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "BA143021-F443-4EF0-8491-30DF93A94E2D - db5147f1007c2634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.AuthViewModel.logIn() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Auth/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "444">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F3FB4D0-EA52-4D25-8809-690B42C36A87"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchTwetts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F3FB4D0-EA52-4D25-8809-690B42C36A87 - 6ddbb2deb158bc67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.HomeViewModel.fetchTwetts() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "3F3FB4D0-EA52-4D25-8809-690B42C36A87 - 6ddbb2deb158bc67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.HomeViewModel.fetchTwetts() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38519FD9-DEBA-4185-9C52-FEBC2480390E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchTwetts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F10290A-04F0-43F0-B818-778CB0E0F534"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Search/ViewModel/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "search()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F10290A-04F0-43F0-B818-778CB0E0F534 - b729492ebaf1c2c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.SearchViewModel.search() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Search/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9F10290A-04F0-43F0-B818-778CB0E0F534 - b729492ebaf1c2c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CryptoKad.SearchViewModel.search() async -&gt; ()"
+                  moduleName = "CryptoKad"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timur/Documents/IOS/CryptoKad/CryptoKad/Core/Search/ViewModel/SearchViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16F65627-9C9F-4A3C-BF0B-0DDA57DAD1DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CryptoKad/Core/Search/ViewModel/SearchViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "search()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

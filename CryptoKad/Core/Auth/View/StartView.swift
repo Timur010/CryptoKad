@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct StartView: View {
+    @StateObject var vm = AuthViewModel(authDataService: AuthDataService.authDataService)
+    @EnvironmentObject private var store: Store
     var body: some View {
         VStack {
             heder
@@ -47,7 +49,8 @@ extension StartView {
     private var buttoms: some View {
         VStack {
             CreateAccountButton(text: "Create account", f: false)
-            
+                .environmentObject(store)
+                .environmentObject(vm)
             HStack {
                 Rectangle()
                     .frame(height: 1)
@@ -80,8 +83,10 @@ extension StartView {
             Text("Already have an account?")
                 .foregroundStyle(Color.white)
                 .font(.title3)
-            Button {
-                
+            NavigationLink {
+                LogInView()
+                    .environmentObject(store)
+                    .environmentObject(vm)
             } label: {
                 Text("Log in")
                     .foregroundStyle(Color.buttonBrightPurple)

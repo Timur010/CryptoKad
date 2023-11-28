@@ -9,10 +9,18 @@ import SwiftUI
 
 @main
 struct CryptoKadApp: App {
+    @StateObject var store = Store()
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                StartView()
+                switch store.authStatus {
+                case .authFalse:
+                    StartView()
+                        .environmentObject(store)
+                case .authTrue:
+                    TabBarView()
+                        .environmentObject(store)
+                }
             }
         }
     }

@@ -9,7 +9,7 @@ import SwiftUI
 
 class Store: ObservableObject {
     @Published var currenTab: Tab = .home
-    @Published var authStatus: Auth = .authFalse
+    @AppStorage("authStatus") var authStatus: Auth = .authFalse
     @Published var auth = true
 }
 

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CreateAccountButton: View {
+    @EnvironmentObject var store: Store
+    @EnvironmentObject var vm: AuthViewModel
     var image: String?
     var text: String
     var f: Bool
@@ -15,6 +17,8 @@ struct CreateAccountButton: View {
         NavigationLink {
             if !f {
                 RegistrationView()
+                    .environmentObject(store)
+                    .environmentObject(vm)
             }
         } label: {
             HStack (spacing: 9) {

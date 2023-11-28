@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+protocol HomeDataServiceProtocol {
+    func featchTweets() async -> Result<[Tweets], RequestError>
+}
+
+class HomeDataService: Request, HomeDataServiceProtocol {
+    static var homeDataService = HomeDataService()
+    
+    func featchTweets() async -> Result<[Tweets], RequestError> {
+        return await sendRequest(endpoint: HomeEndpoint.getTweets, responseModel: [Tweets].self)
+    }
+}

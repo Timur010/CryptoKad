@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct AccountView: View {
+    @EnvironmentObject private var store: Store
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("mokImage")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .clipShape(Circle())
+                .contentShape(Circle())
+                .frame(width: 150, height: 150)
+            Text("Тимур")
+                .font(.title)
+                .bold()
+            
+//            Spacer()
+            
+            Button {
+                store.authStatus = .authFalse
+            }label: {
+                Text("Выйти")
+            }
+        }
+        
+    
     }
 }
 

@@ -9,9 +9,10 @@ import SwiftUI
 
 struct LogInButton: View {
     var text: String
+    var action: () -> ()
     var body: some View {
         Button {
-            
+           action()
         } label: {
             Text(text)
                 .frame(width: 220)
@@ -25,5 +26,5 @@ struct LogInButton: View {
 }
 
 #Preview {
-    LogInButton(text: "Registration")
+    LogInButton(text: "Registration", action: ({}))
 }
