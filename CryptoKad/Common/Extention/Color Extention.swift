@@ -20,4 +20,13 @@ extension Color {
     static var textFildeColor: Color {
         return Color("Text Filde Color")
     }
+    static var tabColor: Color {
+        return Color("Tab Color")
+    }
+    static var darcRed: Color {
+        return Color("Dark Red")
+    }
+    static var cardDarcGradientColor: Color {
+        return Color("0D0C0C")
+    }
 }
