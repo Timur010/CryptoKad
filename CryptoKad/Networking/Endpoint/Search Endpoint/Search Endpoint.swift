@@ -8,7 +8,7 @@
 import Foundation
 
 enum SearchEndpoint: Endpoint {
-    case search(searchText: String)
+    case search(searchText: String, current: SearchEnum, category: CategoryEnum, sortTime: SortTimeEnum)
     
     var path: String {
         switch self {
@@ -30,9 +30,12 @@ enum SearchEndpoint: Endpoint {
     
     var parameters: [String : Any]? {
         switch self {
-        case .search(let searchText):
+        case .search(let searchText, let current, let category, let sortTime):
             return [
-                "name": searchText
+                "name": searchText,
+                "current": current.string,
+                "category": category.string,
+                "sortOrder": sortTime.string
             ]
         }
     }

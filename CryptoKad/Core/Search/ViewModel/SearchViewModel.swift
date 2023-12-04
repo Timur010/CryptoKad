@@ -15,16 +15,34 @@ class SearchViewModel: ObservableObject {
     }
     
     @Published var searchText = ""
-    @Published var users: [User] = []
+    @Published var tweets: [Tweets] = []
+    @Published var current: SearchEnum = .Posts
+    @Published var category: CategoryEnum = .none
+    @Published var sortTime: SortTimeEnum = .old
     
     func search() async {
-        let resault = await searchDataService.search(searchText: searchText)
+        let resault = await searchDataService.search(searchText: searchText, current: current, category: category, sortTime: sortTime)
         switch resault {
         case .success(let data):
-            print("Кайф")
-            users = data
+            tweets = data
+            formater()
         case .failure(let failure):
             print(failure)
+        }
+    }
+    
+    func formater() {
+        for i in 0..<tweets.count {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+
+            if let date = dateFormatter.date(from: tweets[i].createdAt) {
+                dateFormatter.dateFormat = "yyyy-MM-dd"
+                let dateString = dateFormatter.string(from: date)
+                tweets[i].createdAt = dateString
+            } else {
+                print("Ошибка при преобразовании даты для объекта \(i)")
+            }
         }
     }
 }

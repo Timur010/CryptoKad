@@ -7,14 +7,14 @@
 
 import Foundation
 protocol SearchDataServiceProtocol {
-    func search(searchText: String) async -> Result<[User], RequestError>
+    func search(searchText: String, current: SearchEnum , category: CategoryEnum, sortTime: SortTimeEnum ) async -> Result<[Tweets], RequestError>
 }
 
 class SearchDataService: Request, SearchDataServiceProtocol {
     static let searchDataService = SearchDataService()
     
-    func search(searchText: String) async -> Result<[User], RequestError> {
-        return await sendRequest(endpoint: SearchEndpoint.search(searchText: searchText), responseModel: [User].self)
+    func search(searchText: String, current: SearchEnum , category: CategoryEnum, sortTime: SortTimeEnum ) async -> Result<[Tweets], RequestError> {
+        return await sendRequest(endpoint: SearchEndpoint.search(searchText: searchText, current: current, category: category, sortTime: sortTime), responseModel: [Tweets].self)
     }
     
     

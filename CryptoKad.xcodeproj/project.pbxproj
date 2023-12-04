@@ -22,7 +22,14 @@
 		3919A3C62B1290FC005FF54A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3C52B1290FC005FF54A /* Store.swift */; };
 		3919A3C82B12941A005FF54A /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3C72B12941A005FF54A /* TabBarView.swift */; };
 		3919A3CA2B129B19005FF54A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3C92B129B19005FF54A /* AccountView.swift */; };
-		3919A3CC2B12A3C4005FF54A /* еуые.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3919A3CB2B12A3C4005FF54A /* еуые.swift */; };
+		3921CF062B1D0A0D0094E040 /* CategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3921CF052B1D0A0D0094E040 /* CategoryEnum.swift */; };
+		395F41142B1CC250005311CB /* PikerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395F41132B1CC250005311CB /* PikerView.swift */; };
+		395F41172B1CCFC4005311CB /* CreateEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395F41162B1CCFC4005311CB /* CreateEndPoint.swift */; };
+		395F41192B1CD09D005311CB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395F41182B1CD09D005311CB /* Constant.swift */; };
+		395F411C2B1CD139005311CB /* CreateDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395F411B2B1CD139005311CB /* CreateDataService.swift */; };
+		395F411F2B1CD3F2005311CB /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 395F411E2B1CD3F2005311CB /* PopupView */; };
+		3978397F2B1E5577004AE7FC /* SearchEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3978397E2B1E5577004AE7FC /* SearchEndpoint.swift */; };
+		397839812B1E6F7B004AE7FC /* SortTimeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397839802B1E6F7B004AE7FC /* SortTimeEnum.swift */; };
 		397849DD2B15B67B007B2970 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397849DC2B15B67B007B2970 /* HomeViewModel.swift */; };
 		397849E02B15B7C2007B2970 /* HomeEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397849DF2B15B7C2007B2970 /* HomeEndpoint.swift */; };
 		397849E32B15B833007B2970 /* HomeDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397849E22B15B833007B2970 /* HomeDataService.swift */; };
@@ -68,7 +75,13 @@
 		3919A3C52B1290FC005FF54A /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		3919A3C72B12941A005FF54A /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		3919A3C92B129B19005FF54A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
-		3919A3CB2B12A3C4005FF54A /* еуые.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "еуые.swift"; sourceTree = "<group>"; };
+		3921CF052B1D0A0D0094E040 /* CategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEnum.swift; sourceTree = "<group>"; };
+		395F41132B1CC250005311CB /* PikerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikerView.swift; sourceTree = "<group>"; };
+		395F41162B1CCFC4005311CB /* CreateEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEndPoint.swift; sourceTree = "<group>"; };
+		395F41182B1CD09D005311CB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		395F411B2B1CD139005311CB /* CreateDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDataService.swift; sourceTree = "<group>"; };
+		3978397E2B1E5577004AE7FC /* SearchEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEndpoint.swift; sourceTree = "<group>"; };
+		397839802B1E6F7B004AE7FC /* SortTimeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTimeEnum.swift; sourceTree = "<group>"; };
 		397849DC2B15B67B007B2970 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		397849DF2B15B7C2007B2970 /* HomeEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEndpoint.swift; sourceTree = "<group>"; };
 		397849E22B15B833007B2970 /* HomeDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataService.swift; sourceTree = "<group>"; };
@@ -102,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395F411F2B1CD3F2005311CB /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,9 +223,24 @@
 			children = (
 				3919A3C32B1290B0005FF54A /* TabBarIcon.swift */,
 				3919A3C72B12941A005FF54A /* TabBarView.swift */,
-				3919A3CB2B12A3C4005FF54A /* еуые.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		395F41152B1CCFB0005311CB /* Create Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				395F41162B1CCFC4005311CB /* CreateEndPoint.swift */,
+			);
+			path = "Create Endpoint";
+			sourceTree = "<group>";
+		};
+		395F411A2B1CD119005311CB /* Create Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				395F411B2B1CD139005311CB /* CreateDataService.swift */,
+			);
+			path = "Create Data Service";
 			sourceTree = "<group>";
 		};
 		397849DB2B15B666007B2970 /* ViewModel */ = {
@@ -305,6 +334,7 @@
 		398B90CC2B14903900A2818F /* Endpoint */ = {
 			isa = PBXGroup;
 			children = (
+				395F41152B1CCFB0005311CB /* Create Endpoint */,
 				397849E92B15C316007B2970 /* Search Endpoint */,
 				397849DE2B15B7B2007B2970 /* Home Endpoint */,
 				398B90DB2B14944C00A2818F /* Auth Endpoint */,
@@ -335,6 +365,7 @@
 				398B90E52B14F11600A2818F /* Enums */,
 				3919A3C52B1290FC005FF54A /* Store.swift */,
 				398B90DA2B1491CE00A2818F /* Extention */,
+				395F41182B1CD09D005311CB /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -370,6 +401,7 @@
 		398B90E12B14978A00A2818F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				395F411A2B1CD119005311CB /* Create Data Service */,
 				397849ED2B15C3FA007B2970 /* SearchDataService */,
 				397849E12B15B823007B2970 /* Home Data Service */,
 				398B90E22B1497CD00A2818F /* Auth Data Service */,
@@ -389,6 +421,9 @@
 			isa = PBXGroup;
 			children = (
 				398B90E62B14F12100A2818F /* ViewStatus.swift */,
+				3921CF052B1D0A0D0094E040 /* CategoryEnum.swift */,
+				3978397E2B1E5577004AE7FC /* SearchEndpoint.swift */,
+				397839802B1E6F7B004AE7FC /* SortTimeEnum.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -425,6 +460,7 @@
 			isa = PBXGroup;
 			children = (
 				39FCAEAF2B15D6E600588296 /* UserProfileCard.swift */,
+				395F41132B1CC250005311CB /* PikerView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -445,6 +481,9 @@
 			dependencies = (
 			);
 			name = CryptoKad;
+			packageProductDependencies = (
+				395F411E2B1CD3F2005311CB /* PopupView */,
+			);
 			productName = CryptoKad;
 			productReference = 3919A39A2B12573E005FF54A /* CryptoKad.app */;
 			productType = "com.apple.product-type.application";
@@ -473,6 +512,9 @@
 				Base,
 			);
 			mainGroup = 3919A3912B12573E005FF54A;
+			packageReferences = (
+				395F411D2B1CD3F2005311CB /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = 3919A39B2B12573E005FF54A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -507,6 +549,8 @@
 				397849E82B15C26D007B2970 /* SearchViewModel.swift in Sources */,
 				397849EB2B15C32F007B2970 /* Search Endpoint.swift in Sources */,
 				3919A3B12B125A87005FF54A /* CreateAccountButton.swift in Sources */,
+				395F41142B1CC250005311CB /* PikerView.swift in Sources */,
+				395F41172B1CCFC4005311CB /* CreateEndPoint.swift in Sources */,
 				398B90D52B1490DC00A2818F /* Dictionary.swift in Sources */,
 				398B90BD2B14724100A2818F /* LineChart.swift in Sources */,
 				3919A3AD2B1257D1005FF54A /* Color Extention.swift in Sources */,
@@ -514,6 +558,7 @@
 				397849E02B15B7C2007B2970 /* HomeEndpoint.swift in Sources */,
 				398B90E02B1494BF00A2818F /* User.swift in Sources */,
 				398FBAB82B13764200B21172 /* HomeView.swift in Sources */,
+				3978397F2B1E5577004AE7FC /* SearchEndpoint.swift in Sources */,
 				398B90E72B14F12100A2818F /* ViewStatus.swift in Sources */,
 				3919A3BE2B1276A6005FF54A /* Log In Button.swift in Sources */,
 				3919A3BA2B1270E9005FF54A /* AuthViewModel.swift in Sources */,
@@ -521,6 +566,7 @@
 				398B90CF2B14904F00A2818F /* Endpoint.swift in Sources */,
 				3919A3C62B1290FC005FF54A /* Store.swift in Sources */,
 				3919A3C42B1290B0005FF54A /* TabBarIcon.swift in Sources */,
+				3921CF062B1D0A0D0094E040 /* CategoryEnum.swift in Sources */,
 				397849E32B15B833007B2970 /* HomeDataService.swift in Sources */,
 				397849EF2B15C413007B2970 /* SearchDataService.swift in Sources */,
 				398B90C72B148FFC00A2818F /* RequestEncoder.swift in Sources */,
@@ -529,15 +575,17 @@
 				397849E52B15B930007B2970 /* Tweets.swift in Sources */,
 				398B90C92B14900B00A2818F /* RequestError.swift in Sources */,
 				398B90D92B14910000A2818F /* CharacterSet.swift in Sources */,
-				3919A3CC2B12A3C4005FF54A /* еуые.swift in Sources */,
 				398B90BB2B14719300A2818F /* Heder.swift in Sources */,
 				398B90D22B14906A00A2818F /* API.swift in Sources */,
 				3919A3B82B126E6E005FF54A /* TextFiledView.swift in Sources */,
+				395F41192B1CD09D005311CB /* Constant.swift in Sources */,
 				3919A3C82B12941A005FF54A /* TabBarView.swift in Sources */,
 				398B90D72B1490EC00A2818F /* URLSession.swift in Sources */,
 				398B90E42B1497E300A2818F /* AuthDataService.swift in Sources */,
 				398B90C52B148FCA00A2818F /* Request.swift in Sources */,
 				3919A3CA2B129B19005FF54A /* AccountView.swift in Sources */,
+				397839812B1E6F7B004AE7FC /* SortTimeEnum.swift in Sources */,
+				395F411C2B1CD139005311CB /* CreateDataService.swift in Sources */,
 				3919A39E2B12573E005FF54A /* CryptoKadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -680,6 +728,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -709,6 +758,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -744,6 +794,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		395F411D2B1CD3F2005311CB /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		395F411E2B1CD3F2005311CB /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 395F411D2B1CD3F2005311CB /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3919A3922B12573E005FF54A /* Project object */;
 }

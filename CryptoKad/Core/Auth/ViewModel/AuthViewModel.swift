@@ -43,7 +43,8 @@ class AuthViewModel: ObservableObject {
         let resault = await authDataService.logIn(email: email, password: password)
         switch resault {
         case .success(let success):
-            print(success.token)
+            Constant.userToken = success.token
+            Constant.userId = success.user._id ?? ""
             isLogIn = true
         case .failure(let failure):
             print(failure)
